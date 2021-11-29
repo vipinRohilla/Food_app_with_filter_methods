@@ -1,0 +1,284 @@
+.right-box {
+  width: 80vw;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+  height: 54px;
+  border-bottom: 1px solid #e7e5e5;
+}
+.navbar-left-div {
+  width: 70%;
+}
+.navbar-left-left-text {
+  display: flex;
+}
+.navbar-left-left-text > input {
+  padding: 10px;
+  margin: 0px 10px;
+  border-radius: 5px;
+  border: 1px solid #e7e5e5;
+  width: 100%;
+}
+
+.navbar-left-left-text > button {
+  padding: 8px 25px;
+  border-radius: 25px;
+  border: none;
+  font-weight: bolder;
+  font-size: 14px;
+  background: #e7e5e5;
+}
+.navbar-right-div > button {
+  padding: 13px 15px;
+  border-radius: 50%;
+  border: none;
+  background: #e7e5e5;
+}
+.navbar-right-div > a {
+  background: #5655c7;
+  padding: 10px 20px;
+  border-radius: 30px;
+  margin-left: 10px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.navbar-right-div > button > img {
+  height: 17px;
+}
+.right-box-second-div {
+  border-bottom: 1px solid #e7e5e5;
+}
+.right-box-second-div-items > ul {
+  list-style: none;
+  display: flex;
+}
+
+.right-box-second-div-items > ul > li {
+  margin: 0px 10px;
+  padding: 15px 10px;
+  font-weight: bold;
+  color: #575755;
+  font-size: 0.9rem;
+}
+.selected {
+  color: #5655c7 !important;
+  border-bottom: 2px solid #5655c7;
+}
+.red-box {
+  color: crimson;
+  background: #ff000036;
+  padding: 5px 10px;
+  font-size: 10px;
+  border-radius: 50px;
+  margin-left: 5px;
+}
+.image-box {
+  margin: 10px;
+}
+
+.image-box > img {
+  width: 300px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 2px;
+  filter: brightness(70%);
+}
+.image-box > img:hover {
+  filter: brightness(100%);
+  cursor: pointer;
+}
+
+.right-box-third-div-image-box {
+  border-bottom: 1px solid #e7e5e5;
+}
+
+.right-box-third-div-image-roller {
+  display: flex;
+  overflow: auto;
+}
+.right-box-fourth-div {
+  background: #f3f3f3;
+}
+.right-box-fourth-div-search-box > button {
+  border: 1px solid #d5d2d2;
+  background: #fff;
+  padding: 5px 20px;
+  border-radius: 5px;
+}
+.right-box-fourth-div-search-box > button {
+  border: 1px solid #d5d2d2;
+  background: #fff;
+  padding: 5px 20px;
+  border-radius: 5px;
+}
+.right-box-fourth-div-top {
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.right-box-fourth-div-title > p {
+  font-weight: bold;
+}
+.list-item {
+  display: flex;
+  background: #fff;
+  margin: 10px;
+  border-radius: 5px;
+}
+.list-item-details {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 10px;
+}
+.list-item-icon {
+  margin: 10px;
+}
+
+.list-item-details-left-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.list-item-details-left-side > p {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.list-item-details-tag {
+  display: flex;
+  margin-bottom: 10px;
+}
+.list-item-details-tag > p {
+  border-radius: 5px;
+  padding: 4px 15px;
+  font-size: 12px;
+  background: #f0f0f0;
+  margin-right: 10px;
+}
+
+.list-item-icon > img {
+  width: 130px;
+  height: 80px;
+  object-fit: cover;
+}
+.list-item-details-timing {
+  display: flex;
+  align-items: center;
+}
+.list-item-details-timing > img {
+  width: 15px;
+  margin-right: 6px;
+}
+.list-item-details-timing > p {
+  font-size: smaller;
+}
+.list-item-details-right-side {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.stars {
+  display: flex;
+  justify-content: center;
+}
+.stars > img {
+  width: 17px;
+  height: 17px;
+  margin-right: 10px;
+  color: #5655c7;
+}
+.stars > p {
+  font-size: 12px;
+  font-weight: bolder;
+  color: #ffa500;
+}
+.list-item-details-right-side-delivery {
+  padding: 0px 10px;
+  margin: 0px 10px;
+  border-right: 1px solid #d1d1d0;
+  font-size: 12px;
+  font-weight: bold;
+  color: #008000;
+}
+.list-item-details-right-side-charges {
+  font-size: 12px;
+  font-weight: bold;
+}
+.list-item-details-right-side-delivery-charges {
+  display: flex;
+}
+
+
+@media (max-width : 700px){
+    .first-div-right > button{
+        display: none;
+    }
+    .image-box > img {
+        width: 220px;
+        height: 130px;
+    }
+    .list-item-details-left-side > p {
+        font-size: 13px;
+    }
+    .list-item-details-tag > p {
+        font-size: 10px;
+    }
+    .list-item-icon > img {
+        width: 100px;
+        height: 80px;
+    }
+    .list-item-details-right-side-charges , .stars > p {
+        font-size: 10px;
+    }
+    .stars > img {
+        width: 13px;
+        height: 13px;
+    }
+    .list-item-details-timing > p {
+        font-size: 11px;
+    }
+    .right-box-second-div-items > ul > li {
+        font-size: 0.7rem;
+    }
+
+}
+
+@media (max-width : 630px){
+    .first-div-right > button{
+        display: none;
+    }
+    .image-box > img {
+        width: 220px;
+        height: 130px;
+    }
+    .list-item-details-left-side > p {
+        font-size: 13px;
+    }
+    .list-item-details-tag > p {
+        font-size: 10px;
+    }
+    .list-item-icon > img {
+        width: 100px;
+        height: 80px;
+    }
+    .list-item-details-right-side-charges , .stars > p {
+        font-size: 10px;
+    }
+    .stars > img {
+        width: 13px;
+        height: 13px;
+    }
+    .list-item-details-timing > p {
+        font-size: 11px;
+    }
+
+}

@@ -1,0 +1,125 @@
+.left-box {
+  width: 20vw;
+  border-right: 1px solid #e7e5e5;
+}
+.first-div {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  border-bottom: 1px solid #e7e5e5;
+  align-items: center;
+}
+
+.first-div-right > button {
+  padding: 8px 30px;
+  border-radius: 25px;
+  border: none;
+  font-weight: bolder;
+  font-size: 16px;
+}
+
+.second-div,
+.third-div,
+.fourth-div {
+  padding: 10px 25px;
+}
+
+.second-div-top > p,
+.third-div-top > p,
+.fourth-div-top > p {
+  font-weight: bolder;
+}
+
+.second-div-middle > div > input,
+.third-div-middle > div > input,
+.fourth-div-middle > div > input {
+  margin: 10px 0px;
+  margin-right: 5px;
+  width: 20px;
+  height: 17px;
+}
+
+.second-div-middle > div > label,
+.third-div-middle > div > label,
+.fourth-div-middle > div > label {
+  font-size: 14px;
+}
+
+.second-div-bottom > p,
+.third-div-bottom > p,
+.fourth-div-bottom > p {
+  font-weight: bold;
+  color: #5655c7;
+  text-align: center;
+  margin-top: 7px;
+}
+
+@media (max-width : 1100px){
+    .first-div-right > button {
+        padding: 8px 20px;
+        font-size: 13px;
+    }
+}
+
+@media (max-width : 900px){
+    .first-div-right > button {
+        padding: 8px 15px;
+        font-size: 10px;
+    }
+    .second-div-middle > div > input, .third-div-middle > div > input, .fourth-div-middle > div > input {
+        margin: 8px 0px;
+        margin-right: 2px;
+        width: 13px;
+        height: 13px;
+    }
+    .second-div-middle > div > label, .third-div-middle > div > label, .fourth-div-middle > div > label {
+        font-size: 10px;
+    }
+    .navbar-left-left-text > button {
+        padding: 0px 20px;
+        font-size: 11px;
+    }
+    .navbar-right-div > a {
+        padding: 10px 13px;
+        font-size: 10px;
+    }
+}
+
+@media (max-width : 850px){
+    .navbar-right-div > button {
+        display: none;
+    }
+    .second-div-middle > div > input, .third-div-middle > div > input, .fourth-div-middle > div > input {
+        margin: 8px 0px;
+        margin-right: 2px;
+        width: 13px;
+        height: 13px;
+    }
+    .second-div-middle > div > label, .third-div-middle > div > label, .fourth-div-middle > div > label {
+        font-size: 10px;
+    }
+    .navbar-left-left-text > button {
+        padding: 0px 20px;
+    }
+    .navbar-right-div > a {
+        display: none;
+    }
+}
+
+@media (max-width : 630px){
+    .second-div-middle > div > input, .third-div-middle > div > input, .fourth-div-middle > div > input {
+        margin: 8px 0px;
+        margin-right: 2px;
+        width: 10px;
+        height: 10px;
+    }
+    .second-div-middle > div > label, .third-div-middle > div > label, .fourth-div-middle > div > label {
+        font-size: 8px;
+    }
+
+    .first-div-left > img{
+        width: 17px;
+    }
+}
+
+
